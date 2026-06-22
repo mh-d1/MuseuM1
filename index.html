@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>MH Museum</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <header class="navbar">
+    <div class="container">
+
+      <div class="logo">MH MUSEUM</div>
+
+      <div class="nav-actions">
+
+        <button id="soundBtn" class="btn">Sound Off</button>
+
+        <button id="themeBtn" class="btn primary">
+          Theme
+        </button>
+
+      </div>
+
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="container">
+
+      <p class="hero-label">DIGITAL ARCHIVE</p>
+
+      <h1>
+        Museum of Music,<br>
+        Art & History
+      </h1>
+
+      <p class="hero-desc">
+        Explore musicians, painters and historical figures that shaped culture through their works.
+      </p>
+
+    </div>
+  </section>
+
+  <section>
+    <div class="container">
+
+      <div class="featured-card">
+
+        <div class="featured-image">
+          <img id="featuredImage" src="" alt="">
+        </div>
+
+        <div class="featured-content">
+
+          <p class="featured-label">FIGURE OF HISTORY</p>
+
+          <h2 id="featuredName"></h2>
+          <p id="featuredYear"></p>
+          <p id="featuredBio"></p>
+
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <section>
+    <div class="container">
+
+      <div class="section-head">
+        <h2>Choose Another Figure</h2>
+        <p>Select a historical figure to explore.</p>
+      </div>
+
+      <div id="galleryGrid" class="gallery-grid"></div>
+
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>MH MUSEUM</p>
+      <span>Digital archive of art, music and history.</span>
+    </div>
+  </footer>
+
+  <script src="data.js"></script>
+  <script src="app.js"></script>
+
+</body>
+</html>
